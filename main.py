@@ -17,7 +17,7 @@ STOP_WORDS = {
     'into', 'through', 'during', 'before', 'after', 'above', 'below',
     'to', 'from', 'up', 'down', 'out', 'off', 'over', 'under',
     # Conjunctions
-    'and', 'but', 'or', 'nor', 'so', 'yet', 'both', 'either', 'neither',
+    'and', 'but', 'or', 'nor', 'so', 'yet', 'both', 'either', 'neither', 'though',
     # Common verbs (auxiliary/modal)
     'is', 'am', 'are', 'was', 'were', 'be', 'been', 'being',
     'have', 'has', 'had', 'having', 'do', 'does', 'did', 'doing',
@@ -26,7 +26,10 @@ STOP_WORDS = {
     'of', 'as', 'if', 'then', 'than', 'because', 'while', 'although',
     'where', 'when', 'how', 'all', 'each', 'every', 'any', 'some',
     'no', 'not', 'only', 'own', 'same', 'just', 'now', 'here', 'there',
-    'very', 'too', 'also', 'well', 'back', 'even', 'still', 'way',
+    'very', 'too', 'also', 'well', 'back', 'even', 'still', 'way', 'yes',
+    'day', 'one', 'two', 'three', 'other', 'like', 'much', 'most', 'many',
+    # relative pronouns
+    'which', 'whom',
     # Contractions (partial)
     's', 't', 'd', 'll', 've', 're', 'm',
 }

@@ -15,7 +15,7 @@ STOP_WORDS = {
     # Common prepositions
     'in', 'on', 'at', 'by', 'for', 'with', 'about', 'against', 'between',
     'into', 'through', 'during', 'before', 'after', 'above', 'below',
-    'to', 'from', 'up', 'down', 'out', 'off', 'over', 'under',
+    'to', 'from', 'up', 'down', 'out', 'off', 'over', 'under', 'upon',
     # Conjunctions
     'and', 'but', 'or', 'nor', 'so', 'yet', 'both', 'either', 'neither', 'though',
     # Common verbs (auxiliary/modal)
@@ -28,6 +28,7 @@ STOP_WORDS = {
     'no', 'not', 'only', 'own', 'same', 'just', 'now', 'here', 'there',
     'very', 'too', 'also', 'well', 'back', 'even', 'still', 'way', 'yes',
     'day', 'one', 'two', 'three', 'other', 'like', 'much', 'most', 'many',
+    'more', 'less', 'man', 'great', 'such', 'little'
     # relative pronouns
     'which', 'whom',
     # Contractions (partial)

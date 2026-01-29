@@ -103,17 +103,6 @@ def strip_gutenberg_header_footer(text):
     return text[start_idx:end_idx]
 
 
-def is_likely_name(word):
-    """
-    Heuristic to detect if a word is likely a proper name.
-    This is imperfect but catches many cases.
-    """
-    # If word appears to be capitalized in original (we've lowercased it)
-    # We'll use a different approach: check against common name patterns
-    # For better accuracy, you could use a names database
-    return False  # Placeholder - see enhanced version below
-
-
 def extract_words(text):
     """Extract and clean words from text."""
     # Convert to lowercase

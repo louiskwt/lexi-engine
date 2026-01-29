@@ -41,9 +41,14 @@ GUTENBERG_BOOKS = [
     11,      # Alice's Adventures in Wonderland
     1661,    # Sherlock Holmes
     2701,    # Moby Dick
-    74,      # Tom Sawyer
-    1952,    # The Yellow Wallpaper
+    36,      # The War of the Worlds
     98,      # A Tale of Two Cities
+    28553,   # How it Works by Archibald Williams
+    71693,   # The Cambridge natural history,
+    1228,    # On the Origin of Species By Means of Natural Selection
+    30107,   # Principles of Political Economy
+    3300,    # An Inquiry into the Nature and Causes of the Wealth of Nations
+    41360,   # The Elementary Forms of the Religious Life by Émile Durkheim
 ]
 
 

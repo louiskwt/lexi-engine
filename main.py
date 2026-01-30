@@ -16,19 +16,21 @@ STOP_WORDS = {
     'in', 'on', 'at', 'by', 'for', 'with', 'about', 'against', 'between',
     'into', 'through', 'during', 'before', 'after', 'above', 'below',
     'to', 'from', 'up', 'down', 'out', 'off', 'over', 'under', 'upon',
+    'until', 'till', 'along',
     # Conjunctions
     'and', 'but', 'or', 'nor', 'so', 'yet', 'both', 'either', 'neither', 'though',
     # Common verbs (auxiliary/modal)
     'is', 'am', 'are', 'was', 'were', 'be', 'been', 'being',
     'have', 'has', 'had', 'having', 'do', 'does', 'did', 'doing',
     'will', 'would', 'shall', 'should', 'may', 'might', 'must', 'can', 'could',
+    'cannot', 
     # Other common words
     'of', 'as', 'if', 'then', 'than', 'because', 'while', 'although',
     'where', 'when', 'how', 'all', 'each', 'every', 'any', 'some',
     'no', 'not', 'only', 'own', 'same', 'just', 'now', 'here', 'there',
     'very', 'too', 'also', 'well', 'back', 'even', 'still', 'way', 'yes',
     'day', 'one', 'two', 'three', 'other', 'like', 'much', 'most', 'many',
-    'more', 'less', 'man', 'great', 'such', 'little'
+    'more', 'less', 'man', 'men', 'great', 'such', 'little', 'why', 'per',
     # relative pronouns
     'which', 'whom',
     # Contractions (partial)
@@ -139,7 +141,7 @@ def load_common_names():
         'edward', 'robert', 'richard', 'joseph', 'david', 'michael', 'peter',
         'paul', 'mark', 'steven', 'andrew', 'daniel', 'matthew', 'christopher',
         'frank', 'harry', 'jack', 'tom', 'bill', 'bob', 'jim', 'joe', 'sam',
-        'ben', 'fred', 'walter', 'arthur', 'albert', 'alfred', 'ernest',
+        'ben', 'fred', 'walter', 'arthur', 'albert', 'alfred', 'ernest', 'darcy',
         # Female names
         'mary', 'elizabeth', 'margaret', 'anne', 'jane', 'sarah', 'alice',
         'emma', 'catherine', 'charlotte', 'emily', 'helen', 'lucy', 'susan',

@@ -40,6 +40,7 @@ STOP_WORDS = {
 # Sample list of Project Gutenberg book IDs (plain text URLs)
 GUTENBERG_BOOKS = [
     84,      # Frankenstein
+    35,      # Time Machine by H.G. Wells
     1342,    # Pride and Prejudice
     11,      # Alice's Adventures in Wonderland
     1661,    # Sherlock Holmes
@@ -56,6 +57,12 @@ GUTENBERG_BOOKS = [
     2529,    # The Analysis of Mind
     4763,    # The Game of Logic
     50100,   # How to Do Chemical Tricks
+    5001,    # Relativity : the Special and General Theory by Albert Einstein
+    205,     # Walden, and On The Duty Of Civil Disobedience by Henry David Thoreau
+    1497,    # The Republic by Plato
+    2274,    # How to Live on 24 Hours a Day by Arnold Bennett
+    20203,   # Autobiography of Benjamin Franklin by Benjamin Franklin
+    1321,    # The Waste Land by T. S. Eliot
 ]
 
 

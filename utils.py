@@ -1,7 +1,9 @@
 import enchant
 
-def is_english_word(word):
-    dictionary = enchant.Dict("en_US")
-    dictionary_uk = enchant.Dict("en_GB")
-    # Check if the word exists in the dictionary
-    return dictionary.check(word) or dictionary_uk.check(word)
+class Dictionary:
+    us_dictionary = enchant.Dict("en_US")
+    uk_dictionary = enchant.Dict("en_GB")
+    
+    def is_english_word(this, word):
+        # Check if the word exists in the dictionary
+        return this.us_dictionary.check(word) or this.uk_dictionary.check(word)

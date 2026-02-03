@@ -1,6 +1,6 @@
 import re
 import requests
-from utils import is_english_word
+from utils import Dictionary 
 from collections import Counter
 
 # Common words to exclude (articles, pronouns, prepositions, conjunctions, etc.)
@@ -212,10 +212,11 @@ def build_word_frequency(book_ids=None, min_word_length=3, exclude_names=True):
 def save_frequency_dict(counter, filename="word_frequencies.txt", top_n=None):
     """Save the frequency dictionary to a file."""
     words = counter.most_common(top_n)
-    
+    dictionary = Dictionary()
+
     with open(filename, 'w', encoding='utf-8') as f:
         for word, count in words:
-            if is_english_word(word):
+            if dictionary.is_english_word(word):
                 f.write(f"{word}\t{count}\n")
     
     print(f"Saved {len(words)} words to {filename}")

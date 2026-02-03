@@ -242,7 +242,7 @@ def main():
         print(f"{word:20} {count:>8}")
     
     # Save to file
-    save_frequency_dict(word_freq, "word_frequencies.txt")
+    save_frequency_dict(word_freq, "samples/word_frequencies.txt")
      
     return word_freq
 
